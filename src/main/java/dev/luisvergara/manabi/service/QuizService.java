@@ -14,6 +14,7 @@ import dev.luisvergara.manabi.enums.kana.KanaGroup;
 import dev.luisvergara.manabi.enums.kana.KanaType;
 import dev.luisvergara.manabi.enums.quizz.QuestionType;
 import dev.luisvergara.manabi.enums.quizz.QuizContentType;
+import dev.luisvergara.manabi.helper.QuizRandomSelector;
 import dev.luisvergara.manabi.service.facade.QuizContentFacade;
 import dev.luisvergara.manabi.service.factory.KanaQuestionFactory;
 import dev.luisvergara.manabi.service.strategy.QuizStrategy;
@@ -26,8 +27,8 @@ public class QuizService {
     private final KanaQuestionFactory kanaQuestionFactory;
     private final QuizContentFacade quizContentFacade;
     private final List<QuizStrategy> quizStrategies;
+    private final QuizRandomSelector quizRandomSelector;
 
-    private final Random random = new Random();
 
     public List<QuizQuestion> generateQuestions(
             QuizContentType contentType,
@@ -66,7 +67,7 @@ public class QuizService {
         for (int i = 0; i < amount; i++) {
 
             QuestionType questionType =
-                    randomItem(questionTypes);
+                    quizRandomSelector.select(questionTypes);
 
             questions.add(
                     generateQuestion(
@@ -127,9 +128,8 @@ public class QuizService {
 
     while (questions.size() < amount) {
 
-        Kana kana = randomItem(kanaList);
-        QuestionType questionType =
-                randomItem(questionTypes);
+        Kana kana = quizRandomSelector.select(kanaList);
+        QuestionType questionType = quizRandomSelector.select(questionTypes);
 
         String questionKey =
                 kana.getId() + "-" + questionType;
@@ -156,19 +156,7 @@ public class QuizService {
      * UTILIDADES
      * =========================
      */
-    private <T> T randomItem(
-            List<T> items) {
 
-        if (items == null || items.isEmpty()) {
-            throw new IllegalStateException(
-                    "No existen datos suficientes para generar el quiz"
-            );
-        }
-
-        return items.get(
-                random.nextInt(items.size())
-        );
-    }
 
     private QuizQuestion generateQuestion(
         QuizContentType contentType,
