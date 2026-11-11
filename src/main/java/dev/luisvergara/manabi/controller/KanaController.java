@@ -1,64 +1,36 @@
 package dev.luisvergara.manabi.controller;
-
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-
+import java.util.List;
+import org.springframework.web.bind.annotation.*;
+import dev.luisvergara.manabi.dto.kana.*;
 import dev.luisvergara.manabi.entity.kana.Kana;
-import dev.luisvergara.manabi.enums.kana.KanaGroup;
-import dev.luisvergara.manabi.enums.kana.KanaType;
-import dev.luisvergara.manabi.service.KanaService;
-import io.swagger.v3.oas.annotations.parameters.RequestBody;
+import dev.luisvergara.manabi.enums.kana.*;
+import dev.luisvergara.manabi.service.*;
 import lombok.RequiredArgsConstructor;
 
-import java.util.List;
-
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-
-
-@RestController
-@RequestMapping("/api/kana")
-@RequiredArgsConstructor
+@RestController @RequestMapping("/api/kana") @RequiredArgsConstructor
 public class KanaController {
-
-    private final KanaService kanaService;
-
-    @GetMapping("/type/{type}")
-    public List<Kana> findByType(@PathVariable KanaType type) {
-        return kanaService.findByType(type);
+    private final KanaService service;
+    private final ModelValidation validation;
+    private Kana entity(KanaRequest r) {
+        validation.valid(r);
+        Kana k = new Kana(); k.setCharacter(r.character()); k.setRomaji(r.romaji());
+        k.setType(r.type()); k.setGroup(r.group()); k.setDisplayOrder(r.displayOrder()); k.setVersion(r.version());
+        return k;
     }
-    @GetMapping("/group/{group}")
-    public List<Kana> findByGroup(@PathVariable KanaGroup group) {
-        return kanaService.findByGroup(group);
+    @GetMapping public List<KanaResponse> find(@RequestParam(required=false) KanaType type,
+            @RequestParam(required=false) KanaGroup group) {
+        return service.find(type, group).stream().map(KanaResponse::from).toList();
     }
-
-    @GetMapping
-    public List<Kana> find(
-        @RequestParam(required = false) KanaType type,
-        @RequestParam(required = false) KanaGroup group) {
-           return kanaService.find(type, group);
-}
-
-@PostMapping
-public Kana save(@RequestBody Kana kana) {
-    return kanaService.save(kana);
-}
-
-@PutMapping("/{id}")
-public Kana update(
-        @PathVariable Long id,
-        @RequestBody Kana kana) {
-
-    return kanaService.update(id, kana);
-}
-
-@DeleteMapping("/{id}")
-public void delete(@PathVariable Long id) {
-    kanaService.delete(id);
-}
-    
+    @GetMapping("/{id}") public KanaResponse findById(@PathVariable Long id) { return KanaResponse.from(service.findById(id)); }
+    @GetMapping("/type/{type}") public List<KanaResponse> type(@PathVariable KanaType type) {
+        return service.findByType(type).stream().map(KanaResponse::from).toList();
+    }
+    @GetMapping("/group/{group}") public List<KanaResponse> group(@PathVariable KanaGroup group) {
+        return service.findByGroup(group).stream().map(KanaResponse::from).toList();
+    }
+    @PostMapping public KanaResponse save(@RequestBody KanaRequest r) { return KanaResponse.from(service.save(entity(r))); }
+    @PutMapping("/{id}") public KanaResponse update(@PathVariable Long id, @RequestBody KanaRequest r) {
+        return KanaResponse.from(service.update(id, entity(r)));
+    }
+    @DeleteMapping("/{id}") public void delete(@PathVariable Long id) { service.delete(id); }
 }

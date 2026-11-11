@@ -4,5 +4,6 @@ public enum KanaGroup {
     NORMAL,
     DAKUTEN,
     HANDAKUTEN,
-    COMBINATION
+    COMBINATION,
+    EXTENDED
 }

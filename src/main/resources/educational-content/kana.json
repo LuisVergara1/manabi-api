@@ -1,0 +1,1778 @@
+[
+  {
+    "editorialId": "hiragana-あ",
+    "character": "あ",
+    "romaji": "a",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 1
+  },
+  {
+    "editorialId": "hiragana-い",
+    "character": "い",
+    "romaji": "i",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 2
+  },
+  {
+    "editorialId": "hiragana-う",
+    "character": "う",
+    "romaji": "u",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 3
+  },
+  {
+    "editorialId": "hiragana-え",
+    "character": "え",
+    "romaji": "e",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 4
+  },
+  {
+    "editorialId": "hiragana-お",
+    "character": "お",
+    "romaji": "o",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 5
+  },
+  {
+    "editorialId": "hiragana-か",
+    "character": "か",
+    "romaji": "ka",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 6
+  },
+  {
+    "editorialId": "hiragana-き",
+    "character": "き",
+    "romaji": "ki",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 7
+  },
+  {
+    "editorialId": "hiragana-く",
+    "character": "く",
+    "romaji": "ku",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 8
+  },
+  {
+    "editorialId": "hiragana-け",
+    "character": "け",
+    "romaji": "ke",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 9
+  },
+  {
+    "editorialId": "hiragana-こ",
+    "character": "こ",
+    "romaji": "ko",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 10
+  },
+  {
+    "editorialId": "hiragana-さ",
+    "character": "さ",
+    "romaji": "sa",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 11
+  },
+  {
+    "editorialId": "hiragana-し",
+    "character": "し",
+    "romaji": "shi",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 12
+  },
+  {
+    "editorialId": "hiragana-す",
+    "character": "す",
+    "romaji": "su",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 13
+  },
+  {
+    "editorialId": "hiragana-せ",
+    "character": "せ",
+    "romaji": "se",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 14
+  },
+  {
+    "editorialId": "hiragana-そ",
+    "character": "そ",
+    "romaji": "so",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 15
+  },
+  {
+    "editorialId": "hiragana-た",
+    "character": "た",
+    "romaji": "ta",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 16
+  },
+  {
+    "editorialId": "hiragana-ち",
+    "character": "ち",
+    "romaji": "chi",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 17
+  },
+  {
+    "editorialId": "hiragana-つ",
+    "character": "つ",
+    "romaji": "tsu",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 18
+  },
+  {
+    "editorialId": "hiragana-て",
+    "character": "て",
+    "romaji": "te",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 19
+  },
+  {
+    "editorialId": "hiragana-と",
+    "character": "と",
+    "romaji": "to",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 20
+  },
+  {
+    "editorialId": "hiragana-な",
+    "character": "な",
+    "romaji": "na",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 21
+  },
+  {
+    "editorialId": "hiragana-に",
+    "character": "に",
+    "romaji": "ni",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 22
+  },
+  {
+    "editorialId": "hiragana-ぬ",
+    "character": "ぬ",
+    "romaji": "nu",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 23
+  },
+  {
+    "editorialId": "hiragana-ね",
+    "character": "ね",
+    "romaji": "ne",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 24
+  },
+  {
+    "editorialId": "hiragana-の",
+    "character": "の",
+    "romaji": "no",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 25
+  },
+  {
+    "editorialId": "hiragana-は",
+    "character": "は",
+    "romaji": "ha",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 26
+  },
+  {
+    "editorialId": "hiragana-ひ",
+    "character": "ひ",
+    "romaji": "hi",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 27
+  },
+  {
+    "editorialId": "hiragana-ふ",
+    "character": "ふ",
+    "romaji": "fu",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 28
+  },
+  {
+    "editorialId": "hiragana-へ",
+    "character": "へ",
+    "romaji": "he",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 29
+  },
+  {
+    "editorialId": "hiragana-ほ",
+    "character": "ほ",
+    "romaji": "ho",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 30
+  },
+  {
+    "editorialId": "hiragana-ま",
+    "character": "ま",
+    "romaji": "ma",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 31
+  },
+  {
+    "editorialId": "hiragana-み",
+    "character": "み",
+    "romaji": "mi",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 32
+  },
+  {
+    "editorialId": "hiragana-む",
+    "character": "む",
+    "romaji": "mu",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 33
+  },
+  {
+    "editorialId": "hiragana-め",
+    "character": "め",
+    "romaji": "me",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 34
+  },
+  {
+    "editorialId": "hiragana-も",
+    "character": "も",
+    "romaji": "mo",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 35
+  },
+  {
+    "editorialId": "hiragana-や",
+    "character": "や",
+    "romaji": "ya",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 36
+  },
+  {
+    "editorialId": "hiragana-ゆ",
+    "character": "ゆ",
+    "romaji": "yu",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 37
+  },
+  {
+    "editorialId": "hiragana-よ",
+    "character": "よ",
+    "romaji": "yo",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 38
+  },
+  {
+    "editorialId": "hiragana-ら",
+    "character": "ら",
+    "romaji": "ra",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 39
+  },
+  {
+    "editorialId": "hiragana-り",
+    "character": "り",
+    "romaji": "ri",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 40
+  },
+  {
+    "editorialId": "hiragana-る",
+    "character": "る",
+    "romaji": "ru",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 41
+  },
+  {
+    "editorialId": "hiragana-れ",
+    "character": "れ",
+    "romaji": "re",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 42
+  },
+  {
+    "editorialId": "hiragana-ろ",
+    "character": "ろ",
+    "romaji": "ro",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 43
+  },
+  {
+    "editorialId": "hiragana-わ",
+    "character": "わ",
+    "romaji": "wa",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 44
+  },
+  {
+    "editorialId": "hiragana-を",
+    "character": "を",
+    "romaji": "wo",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 45
+  },
+  {
+    "editorialId": "hiragana-ん",
+    "character": "ん",
+    "romaji": "n",
+    "type": "HIRAGANA",
+    "group": "NORMAL",
+    "displayOrder": 46
+  },
+  {
+    "editorialId": "hiragana-が",
+    "character": "が",
+    "romaji": "ga",
+    "type": "HIRAGANA",
+    "group": "DAKUTEN",
+    "displayOrder": 47
+  },
+  {
+    "editorialId": "hiragana-ぎ",
+    "character": "ぎ",
+    "romaji": "gi",
+    "type": "HIRAGANA",
+    "group": "DAKUTEN",
+    "displayOrder": 48
+  },
+  {
+    "editorialId": "hiragana-ぐ",
+    "character": "ぐ",
+    "romaji": "gu",
+    "type": "HIRAGANA",
+    "group": "DAKUTEN",
+    "displayOrder": 49
+  },
+  {
+    "editorialId": "hiragana-げ",
+    "character": "げ",
+    "romaji": "ge",
+    "type": "HIRAGANA",
+    "group": "DAKUTEN",
+    "displayOrder": 50
+  },
+  {
+    "editorialId": "hiragana-ご",
+    "character": "ご",
+    "romaji": "go",
+    "type": "HIRAGANA",
+    "group": "DAKUTEN",
+    "displayOrder": 51
+  },
+  {
+    "editorialId": "hiragana-ざ",
+    "character": "ざ",
+    "romaji": "za",
+    "type": "HIRAGANA",
+    "group": "DAKUTEN",
+    "displayOrder": 52
+  },
+  {
+    "editorialId": "hiragana-じ",
+    "character": "じ",
+    "romaji": "ji",
+    "type": "HIRAGANA",
+    "group": "DAKUTEN",
+    "displayOrder": 53
+  },
+  {
+    "editorialId": "hiragana-ず",
+    "character": "ず",
+    "romaji": "zu",
+    "type": "HIRAGANA",
+    "group": "DAKUTEN",
+    "displayOrder": 54
+  },
+  {
+    "editorialId": "hiragana-ぜ",
+    "character": "ぜ",
+    "romaji": "ze",
+    "type": "HIRAGANA",
+    "group": "DAKUTEN",
+    "displayOrder": 55
+  },
+  {
+    "editorialId": "hiragana-ぞ",
+    "character": "ぞ",
+    "romaji": "zo",
+    "type": "HIRAGANA",
+    "group": "DAKUTEN",
+    "displayOrder": 56
+  },
+  {
+    "editorialId": "hiragana-だ",
+    "character": "だ",
+    "romaji": "da",
+    "type": "HIRAGANA",
+    "group": "DAKUTEN",
+    "displayOrder": 57
+  },
+  {
+    "editorialId": "hiragana-ぢ",
+    "character": "ぢ",
+    "romaji": "ji",
+    "type": "HIRAGANA",
+    "group": "DAKUTEN",
+    "displayOrder": 58
+  },
+  {
+    "editorialId": "hiragana-づ",
+    "character": "づ",
+    "romaji": "zu",
+    "type": "HIRAGANA",
+    "group": "DAKUTEN",
+    "displayOrder": 59
+  },
+  {
+    "editorialId": "hiragana-で",
+    "character": "で",
+    "romaji": "de",
+    "type": "HIRAGANA",
+    "group": "DAKUTEN",
+    "displayOrder": 60
+  },
+  {
+    "editorialId": "hiragana-ど",
+    "character": "ど",
+    "romaji": "do",
+    "type": "HIRAGANA",
+    "group": "DAKUTEN",
+    "displayOrder": 61
+  },
+  {
+    "editorialId": "hiragana-ば",
+    "character": "ば",
+    "romaji": "ba",
+    "type": "HIRAGANA",
+    "group": "DAKUTEN",
+    "displayOrder": 62
+  },
+  {
+    "editorialId": "hiragana-び",
+    "character": "び",
+    "romaji": "bi",
+    "type": "HIRAGANA",
+    "group": "DAKUTEN",
+    "displayOrder": 63
+  },
+  {
+    "editorialId": "hiragana-ぶ",
+    "character": "ぶ",
+    "romaji": "bu",
+    "type": "HIRAGANA",
+    "group": "DAKUTEN",
+    "displayOrder": 64
+  },
+  {
+    "editorialId": "hiragana-べ",
+    "character": "べ",
+    "romaji": "be",
+    "type": "HIRAGANA",
+    "group": "DAKUTEN",
+    "displayOrder": 65
+  },
+  {
+    "editorialId": "hiragana-ぼ",
+    "character": "ぼ",
+    "romaji": "bo",
+    "type": "HIRAGANA",
+    "group": "DAKUTEN",
+    "displayOrder": 66
+  },
+  {
+    "editorialId": "hiragana-ぱ",
+    "character": "ぱ",
+    "romaji": "pa",
+    "type": "HIRAGANA",
+    "group": "HANDAKUTEN",
+    "displayOrder": 67
+  },
+  {
+    "editorialId": "hiragana-ぴ",
+    "character": "ぴ",
+    "romaji": "pi",
+    "type": "HIRAGANA",
+    "group": "HANDAKUTEN",
+    "displayOrder": 68
+  },
+  {
+    "editorialId": "hiragana-ぷ",
+    "character": "ぷ",
+    "romaji": "pu",
+    "type": "HIRAGANA",
+    "group": "HANDAKUTEN",
+    "displayOrder": 69
+  },
+  {
+    "editorialId": "hiragana-ぺ",
+    "character": "ぺ",
+    "romaji": "pe",
+    "type": "HIRAGANA",
+    "group": "HANDAKUTEN",
+    "displayOrder": 70
+  },
+  {
+    "editorialId": "hiragana-ぽ",
+    "character": "ぽ",
+    "romaji": "po",
+    "type": "HIRAGANA",
+    "group": "HANDAKUTEN",
+    "displayOrder": 71
+  },
+  {
+    "editorialId": "hiragana-きゃ",
+    "character": "きゃ",
+    "romaji": "kya",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 72
+  },
+  {
+    "editorialId": "hiragana-きゅ",
+    "character": "きゅ",
+    "romaji": "kyu",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 73
+  },
+  {
+    "editorialId": "hiragana-きょ",
+    "character": "きょ",
+    "romaji": "kyo",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 74
+  },
+  {
+    "editorialId": "hiragana-しゃ",
+    "character": "しゃ",
+    "romaji": "sha",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 75
+  },
+  {
+    "editorialId": "hiragana-しゅ",
+    "character": "しゅ",
+    "romaji": "shu",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 76
+  },
+  {
+    "editorialId": "hiragana-しょ",
+    "character": "しょ",
+    "romaji": "sho",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 77
+  },
+  {
+    "editorialId": "hiragana-ちゃ",
+    "character": "ちゃ",
+    "romaji": "cha",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 78
+  },
+  {
+    "editorialId": "hiragana-ちゅ",
+    "character": "ちゅ",
+    "romaji": "chu",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 79
+  },
+  {
+    "editorialId": "hiragana-ちょ",
+    "character": "ちょ",
+    "romaji": "cho",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 80
+  },
+  {
+    "editorialId": "hiragana-にゃ",
+    "character": "にゃ",
+    "romaji": "nya",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 81
+  },
+  {
+    "editorialId": "hiragana-にゅ",
+    "character": "にゅ",
+    "romaji": "nyu",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 82
+  },
+  {
+    "editorialId": "hiragana-にょ",
+    "character": "にょ",
+    "romaji": "nyo",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 83
+  },
+  {
+    "editorialId": "hiragana-ひゃ",
+    "character": "ひゃ",
+    "romaji": "hya",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 84
+  },
+  {
+    "editorialId": "hiragana-ひゅ",
+    "character": "ひゅ",
+    "romaji": "hyu",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 85
+  },
+  {
+    "editorialId": "hiragana-ひょ",
+    "character": "ひょ",
+    "romaji": "hyo",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 86
+  },
+  {
+    "editorialId": "hiragana-みゃ",
+    "character": "みゃ",
+    "romaji": "mya",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 87
+  },
+  {
+    "editorialId": "hiragana-みゅ",
+    "character": "みゅ",
+    "romaji": "myu",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 88
+  },
+  {
+    "editorialId": "hiragana-みょ",
+    "character": "みょ",
+    "romaji": "myo",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 89
+  },
+  {
+    "editorialId": "hiragana-りゃ",
+    "character": "りゃ",
+    "romaji": "rya",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 90
+  },
+  {
+    "editorialId": "hiragana-りゅ",
+    "character": "りゅ",
+    "romaji": "ryu",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 91
+  },
+  {
+    "editorialId": "hiragana-りょ",
+    "character": "りょ",
+    "romaji": "ryo",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 92
+  },
+  {
+    "editorialId": "hiragana-ぎゃ",
+    "character": "ぎゃ",
+    "romaji": "gya",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 93
+  },
+  {
+    "editorialId": "hiragana-ぎゅ",
+    "character": "ぎゅ",
+    "romaji": "gyu",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 94
+  },
+  {
+    "editorialId": "hiragana-ぎょ",
+    "character": "ぎょ",
+    "romaji": "gyo",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 95
+  },
+  {
+    "editorialId": "hiragana-じゃ",
+    "character": "じゃ",
+    "romaji": "ja",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 96
+  },
+  {
+    "editorialId": "hiragana-じゅ",
+    "character": "じゅ",
+    "romaji": "ju",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 97
+  },
+  {
+    "editorialId": "hiragana-じょ",
+    "character": "じょ",
+    "romaji": "jo",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 98
+  },
+  {
+    "editorialId": "hiragana-びゃ",
+    "character": "びゃ",
+    "romaji": "bya",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 99
+  },
+  {
+    "editorialId": "hiragana-びゅ",
+    "character": "びゅ",
+    "romaji": "byu",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 100
+  },
+  {
+    "editorialId": "hiragana-びょ",
+    "character": "びょ",
+    "romaji": "byo",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 101
+  },
+  {
+    "editorialId": "hiragana-ぴゃ",
+    "character": "ぴゃ",
+    "romaji": "pya",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 102
+  },
+  {
+    "editorialId": "hiragana-ぴゅ",
+    "character": "ぴゅ",
+    "romaji": "pyu",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 103
+  },
+  {
+    "editorialId": "hiragana-ぴょ",
+    "character": "ぴょ",
+    "romaji": "pyo",
+    "type": "HIRAGANA",
+    "group": "COMBINATION",
+    "displayOrder": 104
+  },
+  {
+    "editorialId": "katakana-ア",
+    "character": "ア",
+    "romaji": "a",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 1
+  },
+  {
+    "editorialId": "katakana-イ",
+    "character": "イ",
+    "romaji": "i",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 2
+  },
+  {
+    "editorialId": "katakana-ウ",
+    "character": "ウ",
+    "romaji": "u",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 3
+  },
+  {
+    "editorialId": "katakana-エ",
+    "character": "エ",
+    "romaji": "e",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 4
+  },
+  {
+    "editorialId": "katakana-オ",
+    "character": "オ",
+    "romaji": "o",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 5
+  },
+  {
+    "editorialId": "katakana-カ",
+    "character": "カ",
+    "romaji": "ka",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 6
+  },
+  {
+    "editorialId": "katakana-キ",
+    "character": "キ",
+    "romaji": "ki",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 7
+  },
+  {
+    "editorialId": "katakana-ク",
+    "character": "ク",
+    "romaji": "ku",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 8
+  },
+  {
+    "editorialId": "katakana-ケ",
+    "character": "ケ",
+    "romaji": "ke",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 9
+  },
+  {
+    "editorialId": "katakana-コ",
+    "character": "コ",
+    "romaji": "ko",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 10
+  },
+  {
+    "editorialId": "katakana-サ",
+    "character": "サ",
+    "romaji": "sa",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 11
+  },
+  {
+    "editorialId": "katakana-シ",
+    "character": "シ",
+    "romaji": "shi",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 12
+  },
+  {
+    "editorialId": "katakana-ス",
+    "character": "ス",
+    "romaji": "su",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 13
+  },
+  {
+    "editorialId": "katakana-セ",
+    "character": "セ",
+    "romaji": "se",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 14
+  },
+  {
+    "editorialId": "katakana-ソ",
+    "character": "ソ",
+    "romaji": "so",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 15
+  },
+  {
+    "editorialId": "katakana-タ",
+    "character": "タ",
+    "romaji": "ta",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 16
+  },
+  {
+    "editorialId": "katakana-チ",
+    "character": "チ",
+    "romaji": "chi",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 17
+  },
+  {
+    "editorialId": "katakana-ツ",
+    "character": "ツ",
+    "romaji": "tsu",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 18
+  },
+  {
+    "editorialId": "katakana-テ",
+    "character": "テ",
+    "romaji": "te",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 19
+  },
+  {
+    "editorialId": "katakana-ト",
+    "character": "ト",
+    "romaji": "to",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 20
+  },
+  {
+    "editorialId": "katakana-ナ",
+    "character": "ナ",
+    "romaji": "na",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 21
+  },
+  {
+    "editorialId": "katakana-ニ",
+    "character": "ニ",
+    "romaji": "ni",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 22
+  },
+  {
+    "editorialId": "katakana-ヌ",
+    "character": "ヌ",
+    "romaji": "nu",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 23
+  },
+  {
+    "editorialId": "katakana-ネ",
+    "character": "ネ",
+    "romaji": "ne",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 24
+  },
+  {
+    "editorialId": "katakana-ノ",
+    "character": "ノ",
+    "romaji": "no",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 25
+  },
+  {
+    "editorialId": "katakana-ハ",
+    "character": "ハ",
+    "romaji": "ha",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 26
+  },
+  {
+    "editorialId": "katakana-ヒ",
+    "character": "ヒ",
+    "romaji": "hi",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 27
+  },
+  {
+    "editorialId": "katakana-フ",
+    "character": "フ",
+    "romaji": "fu",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 28
+  },
+  {
+    "editorialId": "katakana-ヘ",
+    "character": "ヘ",
+    "romaji": "he",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 29
+  },
+  {
+    "editorialId": "katakana-ホ",
+    "character": "ホ",
+    "romaji": "ho",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 30
+  },
+  {
+    "editorialId": "katakana-マ",
+    "character": "マ",
+    "romaji": "ma",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 31
+  },
+  {
+    "editorialId": "katakana-ミ",
+    "character": "ミ",
+    "romaji": "mi",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 32
+  },
+  {
+    "editorialId": "katakana-ム",
+    "character": "ム",
+    "romaji": "mu",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 33
+  },
+  {
+    "editorialId": "katakana-メ",
+    "character": "メ",
+    "romaji": "me",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 34
+  },
+  {
+    "editorialId": "katakana-モ",
+    "character": "モ",
+    "romaji": "mo",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 35
+  },
+  {
+    "editorialId": "katakana-ヤ",
+    "character": "ヤ",
+    "romaji": "ya",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 36
+  },
+  {
+    "editorialId": "katakana-ユ",
+    "character": "ユ",
+    "romaji": "yu",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 37
+  },
+  {
+    "editorialId": "katakana-ヨ",
+    "character": "ヨ",
+    "romaji": "yo",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 38
+  },
+  {
+    "editorialId": "katakana-ラ",
+    "character": "ラ",
+    "romaji": "ra",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 39
+  },
+  {
+    "editorialId": "katakana-リ",
+    "character": "リ",
+    "romaji": "ri",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 40
+  },
+  {
+    "editorialId": "katakana-ル",
+    "character": "ル",
+    "romaji": "ru",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 41
+  },
+  {
+    "editorialId": "katakana-レ",
+    "character": "レ",
+    "romaji": "re",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 42
+  },
+  {
+    "editorialId": "katakana-ロ",
+    "character": "ロ",
+    "romaji": "ro",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 43
+  },
+  {
+    "editorialId": "katakana-ワ",
+    "character": "ワ",
+    "romaji": "wa",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 44
+  },
+  {
+    "editorialId": "katakana-ヲ",
+    "character": "ヲ",
+    "romaji": "wo",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 45
+  },
+  {
+    "editorialId": "katakana-ン",
+    "character": "ン",
+    "romaji": "n",
+    "type": "KATAKANA",
+    "group": "NORMAL",
+    "displayOrder": 46
+  },
+  {
+    "editorialId": "katakana-ガ",
+    "character": "ガ",
+    "romaji": "ga",
+    "type": "KATAKANA",
+    "group": "DAKUTEN",
+    "displayOrder": 47
+  },
+  {
+    "editorialId": "katakana-ギ",
+    "character": "ギ",
+    "romaji": "gi",
+    "type": "KATAKANA",
+    "group": "DAKUTEN",
+    "displayOrder": 48
+  },
+  {
+    "editorialId": "katakana-グ",
+    "character": "グ",
+    "romaji": "gu",
+    "type": "KATAKANA",
+    "group": "DAKUTEN",
+    "displayOrder": 49
+  },
+  {
+    "editorialId": "katakana-ゲ",
+    "character": "ゲ",
+    "romaji": "ge",
+    "type": "KATAKANA",
+    "group": "DAKUTEN",
+    "displayOrder": 50
+  },
+  {
+    "editorialId": "katakana-ゴ",
+    "character": "ゴ",
+    "romaji": "go",
+    "type": "KATAKANA",
+    "group": "DAKUTEN",
+    "displayOrder": 51
+  },
+  {
+    "editorialId": "katakana-ザ",
+    "character": "ザ",
+    "romaji": "za",
+    "type": "KATAKANA",
+    "group": "DAKUTEN",
+    "displayOrder": 52
+  },
+  {
+    "editorialId": "katakana-ジ",
+    "character": "ジ",
+    "romaji": "ji",
+    "type": "KATAKANA",
+    "group": "DAKUTEN",
+    "displayOrder": 53
+  },
+  {
+    "editorialId": "katakana-ズ",
+    "character": "ズ",
+    "romaji": "zu",
+    "type": "KATAKANA",
+    "group": "DAKUTEN",
+    "displayOrder": 54
+  },
+  {
+    "editorialId": "katakana-ゼ",
+    "character": "ゼ",
+    "romaji": "ze",
+    "type": "KATAKANA",
+    "group": "DAKUTEN",
+    "displayOrder": 55
+  },
+  {
+    "editorialId": "katakana-ゾ",
+    "character": "ゾ",
+    "romaji": "zo",
+    "type": "KATAKANA",
+    "group": "DAKUTEN",
+    "displayOrder": 56
+  },
+  {
+    "editorialId": "katakana-ダ",
+    "character": "ダ",
+    "romaji": "da",
+    "type": "KATAKANA",
+    "group": "DAKUTEN",
+    "displayOrder": 57
+  },
+  {
+    "editorialId": "katakana-ヂ",
+    "character": "ヂ",
+    "romaji": "ji",
+    "type": "KATAKANA",
+    "group": "DAKUTEN",
+    "displayOrder": 58
+  },
+  {
+    "editorialId": "katakana-ヅ",
+    "character": "ヅ",
+    "romaji": "zu",
+    "type": "KATAKANA",
+    "group": "DAKUTEN",
+    "displayOrder": 59
+  },
+  {
+    "editorialId": "katakana-デ",
+    "character": "デ",
+    "romaji": "de",
+    "type": "KATAKANA",
+    "group": "DAKUTEN",
+    "displayOrder": 60
+  },
+  {
+    "editorialId": "katakana-ド",
+    "character": "ド",
+    "romaji": "do",
+    "type": "KATAKANA",
+    "group": "DAKUTEN",
+    "displayOrder": 61
+  },
+  {
+    "editorialId": "katakana-バ",
+    "character": "バ",
+    "romaji": "ba",
+    "type": "KATAKANA",
+    "group": "DAKUTEN",
+    "displayOrder": 62
+  },
+  {
+    "editorialId": "katakana-ビ",
+    "character": "ビ",
+    "romaji": "bi",
+    "type": "KATAKANA",
+    "group": "DAKUTEN",
+    "displayOrder": 63
+  },
+  {
+    "editorialId": "katakana-ブ",
+    "character": "ブ",
+    "romaji": "bu",
+    "type": "KATAKANA",
+    "group": "DAKUTEN",
+    "displayOrder": 64
+  },
+  {
+    "editorialId": "katakana-ベ",
+    "character": "ベ",
+    "romaji": "be",
+    "type": "KATAKANA",
+    "group": "DAKUTEN",
+    "displayOrder": 65
+  },
+  {
+    "editorialId": "katakana-ボ",
+    "character": "ボ",
+    "romaji": "bo",
+    "type": "KATAKANA",
+    "group": "DAKUTEN",
+    "displayOrder": 66
+  },
+  {
+    "editorialId": "katakana-パ",
+    "character": "パ",
+    "romaji": "pa",
+    "type": "KATAKANA",
+    "group": "HANDAKUTEN",
+    "displayOrder": 67
+  },
+  {
+    "editorialId": "katakana-ピ",
+    "character": "ピ",
+    "romaji": "pi",
+    "type": "KATAKANA",
+    "group": "HANDAKUTEN",
+    "displayOrder": 68
+  },
+  {
+    "editorialId": "katakana-プ",
+    "character": "プ",
+    "romaji": "pu",
+    "type": "KATAKANA",
+    "group": "HANDAKUTEN",
+    "displayOrder": 69
+  },
+  {
+    "editorialId": "katakana-ペ",
+    "character": "ペ",
+    "romaji": "pe",
+    "type": "KATAKANA",
+    "group": "HANDAKUTEN",
+    "displayOrder": 70
+  },
+  {
+    "editorialId": "katakana-ポ",
+    "character": "ポ",
+    "romaji": "po",
+    "type": "KATAKANA",
+    "group": "HANDAKUTEN",
+    "displayOrder": 71
+  },
+  {
+    "editorialId": "katakana-キャ",
+    "character": "キャ",
+    "romaji": "kya",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 72
+  },
+  {
+    "editorialId": "katakana-キュ",
+    "character": "キュ",
+    "romaji": "kyu",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 73
+  },
+  {
+    "editorialId": "katakana-キョ",
+    "character": "キョ",
+    "romaji": "kyo",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 74
+  },
+  {
+    "editorialId": "katakana-シャ",
+    "character": "シャ",
+    "romaji": "sha",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 75
+  },
+  {
+    "editorialId": "katakana-シュ",
+    "character": "シュ",
+    "romaji": "shu",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 76
+  },
+  {
+    "editorialId": "katakana-ショ",
+    "character": "ショ",
+    "romaji": "sho",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 77
+  },
+  {
+    "editorialId": "katakana-チャ",
+    "character": "チャ",
+    "romaji": "cha",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 78
+  },
+  {
+    "editorialId": "katakana-チュ",
+    "character": "チュ",
+    "romaji": "chu",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 79
+  },
+  {
+    "editorialId": "katakana-チョ",
+    "character": "チョ",
+    "romaji": "cho",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 80
+  },
+  {
+    "editorialId": "katakana-ニャ",
+    "character": "ニャ",
+    "romaji": "nya",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 81
+  },
+  {
+    "editorialId": "katakana-ニュ",
+    "character": "ニュ",
+    "romaji": "nyu",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 82
+  },
+  {
+    "editorialId": "katakana-ニョ",
+    "character": "ニョ",
+    "romaji": "nyo",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 83
+  },
+  {
+    "editorialId": "katakana-ヒャ",
+    "character": "ヒャ",
+    "romaji": "hya",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 84
+  },
+  {
+    "editorialId": "katakana-ヒュ",
+    "character": "ヒュ",
+    "romaji": "hyu",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 85
+  },
+  {
+    "editorialId": "katakana-ヒョ",
+    "character": "ヒョ",
+    "romaji": "hyo",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 86
+  },
+  {
+    "editorialId": "katakana-ミャ",
+    "character": "ミャ",
+    "romaji": "mya",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 87
+  },
+  {
+    "editorialId": "katakana-ミュ",
+    "character": "ミュ",
+    "romaji": "myu",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 88
+  },
+  {
+    "editorialId": "katakana-ミョ",
+    "character": "ミョ",
+    "romaji": "myo",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 89
+  },
+  {
+    "editorialId": "katakana-リャ",
+    "character": "リャ",
+    "romaji": "rya",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 90
+  },
+  {
+    "editorialId": "katakana-リュ",
+    "character": "リュ",
+    "romaji": "ryu",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 91
+  },
+  {
+    "editorialId": "katakana-リョ",
+    "character": "リョ",
+    "romaji": "ryo",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 92
+  },
+  {
+    "editorialId": "katakana-ギャ",
+    "character": "ギャ",
+    "romaji": "gya",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 93
+  },
+  {
+    "editorialId": "katakana-ギュ",
+    "character": "ギュ",
+    "romaji": "gyu",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 94
+  },
+  {
+    "editorialId": "katakana-ギョ",
+    "character": "ギョ",
+    "romaji": "gyo",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 95
+  },
+  {
+    "editorialId": "katakana-ジャ",
+    "character": "ジャ",
+    "romaji": "ja",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 96
+  },
+  {
+    "editorialId": "katakana-ジュ",
+    "character": "ジュ",
+    "romaji": "ju",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 97
+  },
+  {
+    "editorialId": "katakana-ジョ",
+    "character": "ジョ",
+    "romaji": "jo",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 98
+  },
+  {
+    "editorialId": "katakana-ビャ",
+    "character": "ビャ",
+    "romaji": "bya",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 99
+  },
+  {
+    "editorialId": "katakana-ビュ",
+    "character": "ビュ",
+    "romaji": "byu",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 100
+  },
+  {
+    "editorialId": "katakana-ビョ",
+    "character": "ビョ",
+    "romaji": "byo",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 101
+  },
+  {
+    "editorialId": "katakana-ピャ",
+    "character": "ピャ",
+    "romaji": "pya",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 102
+  },
+  {
+    "editorialId": "katakana-ピュ",
+    "character": "ピュ",
+    "romaji": "pyu",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 103
+  },
+  {
+    "editorialId": "katakana-ピョ",
+    "character": "ピョ",
+    "romaji": "pyo",
+    "type": "KATAKANA",
+    "group": "COMBINATION",
+    "displayOrder": 104
+  },
+  {
+    "editorialId": "katakana-ファ",
+    "character": "ファ",
+    "romaji": "fa",
+    "type": "KATAKANA",
+    "group": "EXTENDED",
+    "displayOrder": 105
+  },
+  {
+    "editorialId": "katakana-フィ",
+    "character": "フィ",
+    "romaji": "fi",
+    "type": "KATAKANA",
+    "group": "EXTENDED",
+    "displayOrder": 106
+  },
+  {
+    "editorialId": "katakana-フェ",
+    "character": "フェ",
+    "romaji": "fe",
+    "type": "KATAKANA",
+    "group": "EXTENDED",
+    "displayOrder": 107
+  },
+  {
+    "editorialId": "katakana-フォ",
+    "character": "フォ",
+    "romaji": "fo",
+    "type": "KATAKANA",
+    "group": "EXTENDED",
+    "displayOrder": 108
+  },
+  {
+    "editorialId": "katakana-ティ",
+    "character": "ティ",
+    "romaji": "ti",
+    "type": "KATAKANA",
+    "group": "EXTENDED",
+    "displayOrder": 109
+  },
+  {
+    "editorialId": "katakana-ディ",
+    "character": "ディ",
+    "romaji": "di",
+    "type": "KATAKANA",
+    "group": "EXTENDED",
+    "displayOrder": 110
+  },
+  {
+    "editorialId": "katakana-チェ",
+    "character": "チェ",
+    "romaji": "che",
+    "type": "KATAKANA",
+    "group": "EXTENDED",
+    "displayOrder": 111
+  },
+  {
+    "editorialId": "katakana-シェ",
+    "character": "シェ",
+    "romaji": "she",
+    "type": "KATAKANA",
+    "group": "EXTENDED",
+    "displayOrder": 112
+  },
+  {
+    "editorialId": "katakana-ジェ",
+    "character": "ジェ",
+    "romaji": "je",
+    "type": "KATAKANA",
+    "group": "EXTENDED",
+    "displayOrder": 113
+  },
+  {
+    "editorialId": "katakana-ウィ",
+    "character": "ウィ",
+    "romaji": "wi",
+    "type": "KATAKANA",
+    "group": "EXTENDED",
+    "displayOrder": 114
+  },
+  {
+    "editorialId": "katakana-ウェ",
+    "character": "ウェ",
+    "romaji": "we",
+    "type": "KATAKANA",
+    "group": "EXTENDED",
+    "displayOrder": 115
+  },
+  {
+    "editorialId": "katakana-ウォ",
+    "character": "ウォ",
+    "romaji": "wo",
+    "type": "KATAKANA",
+    "group": "EXTENDED",
+    "displayOrder": 116
+  },
+  {
+    "editorialId": "katakana-トゥ",
+    "character": "トゥ",
+    "romaji": "tu",
+    "type": "KATAKANA",
+    "group": "EXTENDED",
+    "displayOrder": 117
+  },
+  {
+    "editorialId": "katakana-デュ",
+    "character": "デュ",
+    "romaji": "dyu",
+    "type": "KATAKANA",
+    "group": "EXTENDED",
+    "displayOrder": 118
+  }
+]

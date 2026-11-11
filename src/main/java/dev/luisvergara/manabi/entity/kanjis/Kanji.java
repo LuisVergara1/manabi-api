@@ -1,60 +1,41 @@
 package dev.luisvergara.manabi.entity.kanjis;
-
-import java.util.ArrayList;
-import java.util.List;
-
+import jakarta.persistence.*;
+import jakarta.validation.constraints.*;
+import lombok.*;
+import java.util.*;
+import jakarta.validation.Valid;
 import dev.luisvergara.manabi.enums.kanjis.JlptLevel;
-import jakarta.persistence.CascadeType;
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.Table;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
 @Entity
 @Table(name = "kanji")
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
+@Getter @Setter @NoArgsConstructor
 public class Kanji {
-    
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY )
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @Column(name = "kanji_character",nullable = false)
+    @Column(name="public_id", nullable=false, unique=true, updatable=false, length=128)
+    private String publicId;
+    @NotBlank @Size(max = 16) @Column(name = "kanji_character", nullable = false, length = 16)
     private String character;
-
-    @Column(nullable = false)
+    @NotBlank @Size(max = 4000) @Column(nullable = false, columnDefinition = "text")
     private String meaning;
-
-    @Column(name = "stroke_count", nullable= false)
+    @NotNull @Positive @Column(name = "stroke_count", nullable = false)
     private Integer strokeCount;
-
-    @Enumerated(EnumType.STRING)
-    @Column(name = "jlpt_level",nullable = false)
+    @NotNull @Enumerated(EnumType.STRING) @Column(name = "jlpt_level", nullable = false, length = 2)
     private JlptLevel jlptLevel;
+    @Size(max = 16) @Column(name = "radical_character", length = 16)
+    private String radicalCharacter;
+    @Size(max = 120) @Column(name = "radical_name", length = 120)
+    private String radicalName;
+    @NotNull @PositiveOrZero @Max(9007199254740991L) @Column(name = "display_order", nullable = false)
+    private Long displayOrder;
+    @Version @Column(nullable = false)
+    private Long version;
+    @NotNull @OneToMany(mappedBy = "kanji", cascade = CascadeType.ALL, orphanRemoval = true)
+    @OrderBy("position ASC")
+    private List<@NotNull @Valid KanjiReading> readings = new ArrayList<>();
+    @NotNull @OneToMany(mappedBy = "kanji", cascade = CascadeType.ALL, orphanRemoval = true)
+    @OrderBy("displayOrder ASC, id ASC")
+    private List<@NotNull @Valid KanjiExample> examples = new ArrayList<>();
+    public void addReading(KanjiReading reading) { reading.setPosition(readings.size()); readings.add(reading); reading.setKanji(this); }
+    public void addExample(KanjiExample example) { examples.add(example); example.setKanji(this); }
 
-    @OneToMany(
-        mappedBy = "kanji",
-        cascade = CascadeType.ALL,
-        orphanRemoval = true
-    )
-       private List<KanjiReading> readings = new ArrayList<>();
-
-    @OneToMany(
-            mappedBy = "kanji",
-            cascade = CascadeType.ALL,
-            orphanRemoval = true
-    )
-    private List<KanjiExample> examples = new ArrayList<>();
 }

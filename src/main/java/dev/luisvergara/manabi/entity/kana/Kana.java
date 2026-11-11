@@ -1,40 +1,32 @@
 package dev.luisvergara.manabi.entity.kana;
-
-import dev.luisvergara.manabi.enums.kana.KanaGroup;
-import dev.luisvergara.manabi.enums.kana.KanaType;
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
+import jakarta.persistence.*;
+import jakarta.validation.constraints.*;
+import lombok.*;
+import dev.luisvergara.manabi.enums.kana.*;
 @Entity
 @Table(name = "kana")
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
+@Getter @Setter @NoArgsConstructor
 public class Kana {
-    
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(name = "kana_character",nullable = false)
+    @Column(name="public_id", nullable=false, unique=true, updatable=false, length=128)
+    private String publicId;
+    @NotBlank @Size(max = 32) @Column(name = "kana_character", nullable = false, length = 32)
     private String character;
-    @Column(nullable = false)
+    @NotBlank @Size(max = 64) @Column(nullable = false, length = 64)
     private String romaji;
-    @Enumerated(EnumType.STRING)
-    @Column(nullable = false)
+    @NotNull @Enumerated(EnumType.STRING) @Column(nullable = false, length = 16)
     private KanaType type;
-    @Enumerated(EnumType.STRING)
-    @Column(name = "group_type",nullable = false)
+    @NotNull @Enumerated(EnumType.STRING) @Column(name = "group_type", nullable = false, length = 16)
     private KanaGroup group;
-}
+    @NotNull @PositiveOrZero @Max(9007199254740991L) @Column(name = "display_order", nullable = false)
+    private Long displayOrder;
+    @Version @Column(nullable = false)
+    private Long version;
+    @AssertTrue(message = "EXTENDED solo es valido para KATAKANA")
+    @com.fasterxml.jackson.annotation.JsonIgnore
+    public boolean isExtendedGroupValid() {
+        return group != KanaGroup.EXTENDED || type == KanaType.KATAKANA;
+    }
 
+}

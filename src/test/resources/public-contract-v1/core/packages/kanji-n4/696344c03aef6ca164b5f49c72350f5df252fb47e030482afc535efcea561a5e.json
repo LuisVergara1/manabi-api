@@ -1,0 +1,57 @@
+{
+  "entityType": "KANJI",
+  "jlptLevel": "N4",
+  "namespace": "manabi.frontend.v1",
+  "packageId": "kanji-n4",
+  "records": [
+    {
+      "character": "海",
+      "displayOrder": 1,
+      "editorialId": "kanji-sea",
+      "jlptLevel": "N4",
+      "meaning": "Mar",
+      "radicalCharacter": "氵",
+      "radicalName": "Agua (水)",
+      "readings": [
+        {
+          "primary": true,
+          "reading": "うみ",
+          "readingType": "KUNYOMI",
+          "romaji": "umi"
+        },
+        {
+          "primary": false,
+          "reading": "カイ",
+          "readingType": "ONYOMI",
+          "romaji": null
+        }
+      ],
+      "strokeCount": 9
+    },
+    {
+      "character": "森",
+      "displayOrder": 2,
+      "editorialId": "kanji-forest",
+      "jlptLevel": "N4",
+      "meaning": "Bosque",
+      "radicalCharacter": "木",
+      "radicalName": "Árbol",
+      "readings": [
+        {
+          "primary": true,
+          "reading": "もり",
+          "readingType": "KUNYOMI",
+          "romaji": "mori"
+        },
+        {
+          "primary": false,
+          "reading": "シン",
+          "readingType": "ONYOMI",
+          "romaji": null
+        }
+      ],
+      "strokeCount": 12
+    }
+  ],
+  "schemaVersion": 1
+}

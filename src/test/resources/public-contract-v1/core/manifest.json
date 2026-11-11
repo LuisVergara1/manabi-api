@@ -1,0 +1,61 @@
+{
+  "manifestFormatVersion": 1,
+  "minimumReaderVersion": 1,
+  "packages": [
+    {
+      "byteLength": 39737,
+      "contentVersion": "sha256:efb54d5017e522efa999cec9904df4ecfd7d3f6aba45178be4ffa8914402075d",
+      "dependencies": [],
+      "entityType": "KANA",
+      "minimumReaderVersion": 1,
+      "namespace": "manabi.frontend.v1",
+      "packageId": "kana",
+      "recordCount": 222,
+      "schemaVersion": 1,
+      "sha256": "efb54d5017e522efa999cec9904df4ecfd7d3f6aba45178be4ffa8914402075d",
+      "url": "packages/kana/efb54d5017e522efa999cec9904df4ecfd7d3f6aba45178be4ffa8914402075d.json"
+    },
+    {
+      "byteLength": 12530,
+      "contentVersion": "sha256:d6623966a1d05ff8d3b625abeb49eaff794c15d8c5c333ebdb70f4da8173ebce",
+      "dependencies": [],
+      "entityType": "VOCABULARY",
+      "minimumReaderVersion": 1,
+      "namespace": "manabi.frontend.v1",
+      "packageId": "vocabulary",
+      "recordCount": 40,
+      "schemaVersion": 1,
+      "sha256": "d6623966a1d05ff8d3b625abeb49eaff794c15d8c5c333ebdb70f4da8173ebce",
+      "url": "packages/vocabulary/d6623966a1d05ff8d3b625abeb49eaff794c15d8c5c333ebdb70f4da8173ebce.json"
+    },
+    {
+      "byteLength": 1931,
+      "contentVersion": "sha256:300a046b4cc468b09748870e0e775b9813fac82a7eefd53cc0d562bab1ff7cc8",
+      "dependencies": [],
+      "entityType": "KANJI",
+      "jlptLevel": "N5",
+      "minimumReaderVersion": 1,
+      "namespace": "manabi.frontend.v1",
+      "packageId": "kanji-n5",
+      "recordCount": 3,
+      "schemaVersion": 1,
+      "sha256": "300a046b4cc468b09748870e0e775b9813fac82a7eefd53cc0d562bab1ff7cc8",
+      "url": "packages/kanji-n5/300a046b4cc468b09748870e0e775b9813fac82a7eefd53cc0d562bab1ff7cc8.json"
+    },
+    {
+      "byteLength": 1252,
+      "contentVersion": "sha256:696344c03aef6ca164b5f49c72350f5df252fb47e030482afc535efcea561a5e",
+      "dependencies": [],
+      "entityType": "KANJI",
+      "jlptLevel": "N4",
+      "minimumReaderVersion": 1,
+      "namespace": "manabi.frontend.v1",
+      "packageId": "kanji-n4",
+      "recordCount": 2,
+      "schemaVersion": 1,
+      "sha256": "696344c03aef6ca164b5f49c72350f5df252fb47e030482afc535efcea561a5e",
+      "url": "packages/kanji-n4/696344c03aef6ca164b5f49c72350f5df252fb47e030482afc535efcea561a5e.json"
+    }
+  ],
+  "releaseId": "sha256:b167e6169a0a5da59633c784f40d30ad9385f7b64218373e4754e0a77d24a46c"
+}

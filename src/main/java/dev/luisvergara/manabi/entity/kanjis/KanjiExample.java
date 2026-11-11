@@ -1,41 +1,24 @@
 package dev.luisvergara.manabi.entity.kanjis;
-
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.FetchType;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
-import jakarta.persistence.Table;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.*;
+import lombok.*;
 
 @Entity
 @Table(name = "kanji_example")
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
+@Getter @Setter @NoArgsConstructor
 public class KanjiExample {
-    
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @Column(nullable = false)
+    @NotBlank @Size(max = 512) @Column(nullable = false, length = 512)
     private String japanese;
-
-    @Column(nullable = false)
+    @NotBlank @Size(max = 512) @Column(nullable = false, length = 512)
     private String reading;
-
-    @Column(nullable = false)
+    @NotBlank @Size(max = 4000) @Column(nullable = false, columnDefinition = "text")
     private String meaning;
-
-    @ManyToOne(fetch = FetchType.LAZY)
+    @NotNull @PositiveOrZero @Max(9007199254740991L) @Column(name = "display_order", nullable = false)
+    private Long displayOrder;
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "kanji_id", nullable = false)
     private Kanji kanji;
+
 }

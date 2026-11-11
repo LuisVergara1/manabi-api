@@ -1,52 +1,32 @@
 package dev.luisvergara.manabi.entity.vocabulary;
-
-import java.util.HashSet;
-import java.util.Set;
-
-import dev.luisvergara.manabi.enums.vocabulary.VocabularyCategory;
-import jakarta.persistence.CollectionTable;
-import jakarta.persistence.Column;
-import jakarta.persistence.ElementCollection;
-import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.Table;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
+import jakarta.persistence.*;
+import jakarta.validation.constraints.*;
+import lombok.*;
+import java.util.*;
 @Entity
 @Table(name = "vocabulary")
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
+@Getter @Setter @NoArgsConstructor
 public class Vocabulary {
-    
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @Column(nullable = false)
+    @Column(name="public_id", nullable=false, unique=true, updatable=false, length=128)
+    private String publicId;
+    @NotBlank @Size(max = 256) @Column(nullable = false, length = 256)
     private String japanese;
-
-    @Column(nullable = false)
-    private String reading;
-
-    @Column(nullable = false)
+    @NotBlank @Size(max = 256) @Column(nullable = false, length = 256)
+    private String kana;
+    @NotBlank @Size(max = 512) @Column(nullable = false, length = 512)
+    private String romaji;
+    @NotBlank @Size(max = 4000) @Column(nullable = false, columnDefinition = "text")
     private String meaning;
-
-    @ElementCollection
-    @CollectionTable(
-            name = "vocabulary_categories",
-            joinColumns = @JoinColumn(name = "vocabulary_id")
-    )
-    @Enumerated(EnumType.STRING)
-    @Column(name = "category", nullable = false)
+    @NotNull @PositiveOrZero @Max(9007199254740991L) @Column(name = "display_order", nullable = false)
+    private Long displayOrder;
+    @Version @Column(nullable = false)
+    private Long version;
+    @NotEmpty @ManyToMany(fetch = FetchType.LAZY)
+    @JoinTable(name = "vocabulary_category_membership",
+        joinColumns = @JoinColumn(name = "vocabulary_id"),
+        inverseJoinColumns = @JoinColumn(name = "category_id"))
     private Set<VocabularyCategory> categories = new HashSet<>();
+
 }

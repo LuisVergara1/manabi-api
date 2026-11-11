@@ -1,0 +1,29 @@
+# Definition only; no PostgreSQL service and no deployment performed by this task.
+services:
+  manabi-api:
+    build: .
+    env_file:
+      - .env
+    environment:
+      DB_URL: "${DB_URL:?DB_URL_required}"
+      DB_USERNAME: "${DB_USERNAME:?DB_USERNAME_required}"
+      DB_PASSWORD: "${DB_PASSWORD:?DB_PASSWORD_required}"
+      MANABI_PUBLICATION_ROOT: /var/lib/manabi/publications
+      MANABI_BIND_ADDRESS: 0.0.0.0
+      JAVA_TOOL_OPTIONS: "-XX:MaxRAMPercentage=60"
+      SPRING_PROFILES_ACTIVE: "${SPRING_PROFILES_ACTIVE:-prod}"
+      MANABI_SESSION_COOKIE_SECURE: "${MANABI_SESSION_COOKIE_SECURE:-true}"
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - manabi_publications:/var/lib/manabi/publications
+    mem_limit: 1g
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+volumes:
+  manabi_publications:

@@ -1,0 +1,116 @@
+{
+  "purpose": "Non-publishable technical conformance vectors. Exact UTF-8; sorted keys; two-space indent; final LF.",
+  "publicReleaseId": "sha256:b167e6169a0a5da59633c784f40d30ad9385f7b64218373e4754e0a77d24a46c",
+  "canonical": [
+    {
+      "id": "object-order-unicode-null-array",
+      "input": {
+        "z": null,
+        "a": [
+          "あ",
+          "は",
+          "〇〇",
+          "\n",
+          "\"",
+          "\\"
+        ],
+        "nested": {
+          "z": false,
+          "a": 1
+        }
+      },
+      "utf8Base64": "ewogICJhIjogWwogICAgIuOBgiIsCiAgICAi44GvIiwKICAgICLjgIfjgIciLAogICAgIlxuIiwKICAgICJcIiIsCiAgICAiXFwiCiAgXSwKICAibmVzdGVkIjogewogICAgImEiOiAxLAogICAgInoiOiBmYWxzZQogIH0sCiAgInoiOiBudWxsCn0K",
+      "byteLength": 141,
+      "sha256": "ffb99058c733b982c467f0d92f56e338a07d1ba9d24cbaabef8e27168fcb84bd"
+    },
+    {
+      "id": "safe-integers-order",
+      "input": {
+        "b": 9007199254740991,
+        "a": [
+          0,
+          1,
+          10
+        ]
+      },
+      "utf8Base64": "ewogICJhIjogWwogICAgMCwKICAgIDEsCiAgICAxMAogIF0sCiAgImIiOiA5MDA3MTk5MjU0NzQwOTkxCn0K",
+      "byteLength": 63,
+      "sha256": "0100f0a057a45d37fcdba2c3303d370ba2297f54ce7c88eb7507be55951c85d5"
+    },
+    {
+      "id": "empty-phrases",
+      "input": {
+        "phrases": []
+      },
+      "utf8Base64": "ewogICJwaHJhc2VzIjogW10KfQo=",
+      "byteLength": 20,
+      "sha256": "c93780ef9b7b4fbe8b53d8c4d7fc2bf439cdfea58708b4fc5852966bc8737dd2"
+    },
+    {
+      "id": "release-preimage",
+      "input": {
+        "manifestFormatVersion": 1,
+        "minimumReaderVersion": 1,
+        "packages": [
+          {
+            "byteLength": 39737,
+            "contentVersion": "sha256:efb54d5017e522efa999cec9904df4ecfd7d3f6aba45178be4ffa8914402075d",
+            "dependencies": [],
+            "entityType": "KANA",
+            "minimumReaderVersion": 1,
+            "namespace": "manabi.frontend.v1",
+            "packageId": "kana",
+            "recordCount": 222,
+            "schemaVersion": 1,
+            "sha256": "efb54d5017e522efa999cec9904df4ecfd7d3f6aba45178be4ffa8914402075d",
+            "url": "packages/kana/efb54d5017e522efa999cec9904df4ecfd7d3f6aba45178be4ffa8914402075d.json"
+          },
+          {
+            "byteLength": 12530,
+            "contentVersion": "sha256:d6623966a1d05ff8d3b625abeb49eaff794c15d8c5c333ebdb70f4da8173ebce",
+            "dependencies": [],
+            "entityType": "VOCABULARY",
+            "minimumReaderVersion": 1,
+            "namespace": "manabi.frontend.v1",
+            "packageId": "vocabulary",
+            "recordCount": 40,
+            "schemaVersion": 1,
+            "sha256": "d6623966a1d05ff8d3b625abeb49eaff794c15d8c5c333ebdb70f4da8173ebce",
+            "url": "packages/vocabulary/d6623966a1d05ff8d3b625abeb49eaff794c15d8c5c333ebdb70f4da8173ebce.json"
+          },
+          {
+            "byteLength": 1931,
+            "contentVersion": "sha256:300a046b4cc468b09748870e0e775b9813fac82a7eefd53cc0d562bab1ff7cc8",
+            "dependencies": [],
+            "entityType": "KANJI",
+            "jlptLevel": "N5",
+            "minimumReaderVersion": 1,
+            "namespace": "manabi.frontend.v1",
+            "packageId": "kanji-n5",
+            "recordCount": 3,
+            "schemaVersion": 1,
+            "sha256": "300a046b4cc468b09748870e0e775b9813fac82a7eefd53cc0d562bab1ff7cc8",
+            "url": "packages/kanji-n5/300a046b4cc468b09748870e0e775b9813fac82a7eefd53cc0d562bab1ff7cc8.json"
+          },
+          {
+            "byteLength": 1252,
+            "contentVersion": "sha256:696344c03aef6ca164b5f49c72350f5df252fb47e030482afc535efcea561a5e",
+            "dependencies": [],
+            "entityType": "KANJI",
+            "jlptLevel": "N4",
+            "minimumReaderVersion": 1,
+            "namespace": "manabi.frontend.v1",
+            "packageId": "kanji-n4",
+            "recordCount": 2,
+            "schemaVersion": 1,
+            "sha256": "696344c03aef6ca164b5f49c72350f5df252fb47e030482afc535efcea561a5e",
+            "url": "packages/kanji-n4/696344c03aef6ca164b5f49c72350f5df252fb47e030482afc535efcea561a5e.json"
+          }
+        ]
+      },
+      "utf8Base64": "ewogICJtYW5pZmVzdEZvcm1hdFZlcnNpb24iOiAxLAogICJtaW5pbXVtUmVhZGVyVmVyc2lvbiI6IDEsCiAgInBhY2thZ2VzIjogWwogICAgewogICAgICAiYnl0ZUxlbmd0aCI6IDM5NzM3LAogICAgICAiY29udGVudFZlcnNpb24iOiAic2hhMjU2OmVmYjU0ZDUwMTdlNTIyZWZhOTk5Y2VjOTkwNGRmNGVjZmQ3ZDNmNmFiYTQ1MTc4YmU0ZmZhODkxNDQwMjA3NWQiLAogICAgICAiZGVwZW5kZW5jaWVzIjogW10sCiAgICAgICJlbnRpdHlUeXBlIjogIktBTkEiLAogICAgICAibWluaW11bVJlYWRlclZlcnNpb24iOiAxLAogICAgICAibmFtZXNwYWNlIjogIm1hbmFiaS5mcm9udGVuZC52MSIsCiAgICAgICJwYWNrYWdlSWQiOiAia2FuYSIsCiAgICAgICJyZWNvcmRDb3VudCI6IDIyMiwKICAgICAgInNjaGVtYVZlcnNpb24iOiAxLAogICAgICAic2hhMjU2IjogImVmYjU0ZDUwMTdlNTIyZWZhOTk5Y2VjOTkwNGRmNGVjZmQ3ZDNmNmFiYTQ1MTc4YmU0ZmZhODkxNDQwMjA3NWQiLAogICAgICAidXJsIjogInBhY2thZ2VzL2thbmEvZWZiNTRkNTAxN2U1MjJlZmE5OTljZWM5OTA0ZGY0ZWNmZDdkM2Y2YWJhNDUxNzhiZTRmZmE4OTE0NDAyMDc1ZC5qc29uIgogICAgfSwKICAgIHsKICAgICAgImJ5dGVMZW5ndGgiOiAxMjUzMCwKICAgICAgImNvbnRlbnRWZXJzaW9uIjogInNoYTI1NjpkNjYyMzk2NmExZDA1ZmY4ZDNiNjI1YWJlYjQ5ZWFmZjc5NGMxNWQ4YzVjMzMzZWJkYjcwZjRkYTgxNzNlYmNlIiwKICAgICAgImRlcGVuZGVuY2llcyI6IFtdLAogICAgICAiZW50aXR5VHlwZSI6ICJWT0NBQlVMQVJZIiwKICAgICAgIm1pbmltdW1SZWFkZXJWZXJzaW9uIjogMSwKICAgICAgIm5hbWVzcGFjZSI6ICJtYW5hYmkuZnJvbnRlbmQudjEiLAogICAgICAicGFja2FnZUlkIjogInZvY2FidWxhcnkiLAogICAgICAicmVjb3JkQ291bnQiOiA0MCwKICAgICAgInNjaGVtYVZlcnNpb24iOiAxLAogICAgICAic2hhMjU2IjogImQ2NjIzOTY2YTFkMDVmZjhkM2I2MjVhYmViNDllYWZmNzk0YzE1ZDhjNWMzMzNlYmRiNzBmNGRhODE3M2ViY2UiLAogICAgICAidXJsIjogInBhY2thZ2VzL3ZvY2FidWxhcnkvZDY2MjM5NjZhMWQwNWZmOGQzYjYyNWFiZWI0OWVhZmY3OTRjMTVkOGM1YzMzM2ViZGI3MGY0ZGE4MTczZWJjZS5qc29uIgogICAgfSwKICAgIHsKICAgICAgImJ5dGVMZW5ndGgiOiAxOTMxLAogICAgICAiY29udGVudFZlcnNpb24iOiAic2hhMjU2OjMwMGEwNDZiNGNjNDY4YjA5NzQ4ODcwZTBlNzc1Yjk4MTNmYWM4MmE3ZWVmZDUzY2MwZDU2MmJhYjFmZjdjYzgiLAogICAgICAiZGVwZW5kZW5jaWVzIjogW10sCiAgICAgICJlbnRpdHlUeXBlIjogIktBTkpJIiwKICAgICAgImpscHRMZXZlbCI6ICJONSIsCiAgICAgICJtaW5pbXVtUmVhZGVyVmVyc2lvbiI6IDEsCiAgICAgICJuYW1lc3BhY2UiOiAibWFuYWJpLmZyb250ZW5kLnYxIiwKICAgICAgInBhY2thZ2VJZCI6ICJrYW5qaS1uNSIsCiAgICAgICJyZWNvcmRDb3VudCI6IDMsCiAgICAgICJzY2hlbWFWZXJzaW9uIjogMSwKICAgICAgInNoYTI1NiI6ICIzMDBhMDQ2YjRjYzQ2OGIwOTc0ODg3MGUwZTc3NWI5ODEzZmFjODJhN2VlZmQ1M2NjMGQ1NjJiYWIxZmY3Y2M4IiwKICAgICAgInVybCI6ICJwYWNrYWdlcy9rYW5qaS1uNS8zMDBhMDQ2YjRjYzQ2OGIwOTc0ODg3MGUwZTc3NWI5ODEzZmFjODJhN2VlZmQ1M2NjMGQ1NjJiYWIxZmY3Y2M4Lmpzb24iCiAgICB9LAogICAgewogICAgICAiYnl0ZUxlbmd0aCI6IDEyNTIsCiAgICAgICJjb250ZW50VmVyc2lvbiI6ICJzaGEyNTY6Njk2MzQ0YzAzYWVmNmNhMTY0YjVmNDljNzIzNTBmNWRmMjUyZmI0N2UwMzA0ODJhZmM1MzVlZmNlYTU2MWE1ZSIsCiAgICAgICJkZXBlbmRlbmNpZXMiOiBbXSwKICAgICAgImVudGl0eVR5cGUiOiAiS0FOSkkiLAogICAgICAiamxwdExldmVsIjogIk40IiwKICAgICAgIm1pbmltdW1SZWFkZXJWZXJzaW9uIjogMSwKICAgICAgIm5hbWVzcGFjZSI6ICJtYW5hYmkuZnJvbnRlbmQudjEiLAogICAgICAicGFja2FnZUlkIjogImthbmppLW40IiwKICAgICAgInJlY29yZENvdW50IjogMiwKICAgICAgInNjaGVtYVZlcnNpb24iOiAxLAogICAgICAic2hhMjU2IjogIjY5NjM0NGMwM2FlZjZjYTE2NGI1ZjQ5YzcyMzUwZjVkZjI1MmZiNDdlMDMwNDgyYWZjNTM1ZWZjZWE1NjFhNWUiLAogICAgICAidXJsIjogInBhY2thZ2VzL2thbmppLW40LzY5NjM0NGMwM2FlZjZjYTE2NGI1ZjQ5YzcyMzUwZjVkZjI1MmZiNDdlMDMwNDgyYWZjNTM1ZWZjZWE1NjFhNWUuanNvbiIKICAgIH0KICBdCn0K",
+      "byteLength": 2277,
+      "sha256": "b167e6169a0a5da59633c784f40d30ad9385f7b64218373e4754e0a77d24a46c"
+    }
+  ]
+}

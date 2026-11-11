@@ -1,0 +1,457 @@
+[
+  {
+    "editorialId": "water",
+    "japanese": "水",
+    "kana": "みず",
+    "romaji": "mizu",
+    "meaning": "Agua",
+    "displayOrder": 1,
+    "categories": [
+      "DRINKS",
+      "NATURE"
+    ]
+  },
+  {
+    "editorialId": "tea",
+    "japanese": "お茶",
+    "kana": "おちゃ",
+    "romaji": "ocha",
+    "meaning": "Té",
+    "displayOrder": 2,
+    "categories": [
+      "DRINKS",
+      "FOOD"
+    ]
+  },
+  {
+    "editorialId": "cat",
+    "japanese": "猫",
+    "kana": "ねこ",
+    "romaji": "neko",
+    "meaning": "Gato",
+    "displayOrder": 3,
+    "categories": [
+      "ANIMAL"
+    ]
+  },
+  {
+    "editorialId": "red",
+    "japanese": "赤い",
+    "kana": "あかい",
+    "romaji": "akai",
+    "meaning": "Rojo",
+    "displayOrder": 4,
+    "categories": [
+      "COLOR",
+      "ADJECTIVES"
+    ]
+  },
+  {
+    "editorialId": "one",
+    "japanese": "一",
+    "kana": "いち",
+    "romaji": "ichi",
+    "meaning": "Uno",
+    "displayOrder": 5,
+    "categories": [
+      "NUMBERS"
+    ]
+  },
+  {
+    "editorialId": "hello",
+    "japanese": "こんにちは",
+    "kana": "こんにちは",
+    "romaji": "konnichiwa",
+    "meaning": "Hola",
+    "displayOrder": 6,
+    "categories": [
+      "GREETINGS"
+    ]
+  },
+  {
+    "editorialId": "mother",
+    "japanese": "母",
+    "kana": "はは",
+    "romaji": "haha",
+    "meaning": "Madre",
+    "displayOrder": 7,
+    "categories": [
+      "FAMILY"
+    ]
+  },
+  {
+    "editorialId": "book",
+    "japanese": "本",
+    "kana": "ほん",
+    "romaji": "hon",
+    "meaning": "Libro",
+    "displayOrder": 8,
+    "categories": [
+      "SCHOOL",
+      "HOME"
+    ]
+  },
+  {
+    "editorialId": "house",
+    "japanese": "家",
+    "kana": "いえ",
+    "romaji": "ie",
+    "meaning": "Casa",
+    "displayOrder": 9,
+    "categories": [
+      "HOME",
+      "PLACE"
+    ]
+  },
+  {
+    "editorialId": "rain",
+    "japanese": "雨",
+    "kana": "あめ",
+    "romaji": "ame",
+    "meaning": "Lluvia",
+    "displayOrder": 10,
+    "categories": [
+      "WEATHER",
+      "NATURE"
+    ]
+  },
+  {
+    "editorialId": "today",
+    "japanese": "今日",
+    "kana": "きょう",
+    "romaji": "kyou",
+    "meaning": "Hoy",
+    "displayOrder": 11,
+    "categories": [
+      "TIME"
+    ]
+  },
+  {
+    "editorialId": "school",
+    "japanese": "学校",
+    "kana": "がっこう",
+    "romaji": "gakkou",
+    "meaning": "Escuela",
+    "displayOrder": 12,
+    "categories": [
+      "SCHOOL",
+      "PLACE"
+    ]
+  },
+  {
+    "editorialId": "work",
+    "japanese": "仕事",
+    "kana": "しごと",
+    "romaji": "shigoto",
+    "meaning": "Trabajo",
+    "displayOrder": 13,
+    "categories": [
+      "WORK"
+    ]
+  },
+  {
+    "editorialId": "eat",
+    "japanese": "食べる",
+    "kana": "たべる",
+    "romaji": "taberu",
+    "meaning": "Comer",
+    "displayOrder": 14,
+    "categories": [
+      "VERBS"
+    ]
+  },
+  {
+    "editorialId": "shirt",
+    "japanese": "シャツ",
+    "kana": "シャツ",
+    "romaji": "shatsu",
+    "meaning": "Camisa",
+    "displayOrder": 15,
+    "categories": [
+      "CLOTHES"
+    ]
+  },
+  {
+    "editorialId": "hat",
+    "japanese": "帽子",
+    "kana": "ぼうし",
+    "romaji": "boushi",
+    "meaning": "Sombrero",
+    "displayOrder": 16,
+    "categories": [
+      "CLOTHES"
+    ]
+  },
+  {
+    "editorialId": "shoes",
+    "japanese": "靴",
+    "kana": "くつ",
+    "romaji": "kutsu",
+    "meaning": "Zapatos",
+    "displayOrder": 17,
+    "categories": [
+      "CLOTHES"
+    ]
+  },
+  {
+    "editorialId": "blue",
+    "japanese": "青い",
+    "kana": "あおい",
+    "romaji": "aoi",
+    "meaning": "Azul",
+    "displayOrder": 18,
+    "categories": [
+      "COLOR",
+      "ADJECTIVES"
+    ]
+  },
+  {
+    "editorialId": "white",
+    "japanese": "白い",
+    "kana": "しろい",
+    "romaji": "shiroi",
+    "meaning": "Blanco",
+    "displayOrder": 19,
+    "categories": [
+      "COLOR",
+      "ADJECTIVES"
+    ]
+  },
+  {
+    "editorialId": "two",
+    "japanese": "二",
+    "kana": "に",
+    "romaji": "ni",
+    "meaning": "Dos",
+    "displayOrder": 20,
+    "categories": [
+      "NUMBERS"
+    ]
+  },
+  {
+    "editorialId": "three",
+    "japanese": "三",
+    "kana": "さん",
+    "romaji": "san",
+    "meaning": "Tres",
+    "displayOrder": 21,
+    "categories": [
+      "NUMBERS"
+    ]
+  },
+  {
+    "editorialId": "good-morning",
+    "japanese": "おはよう",
+    "kana": "おはよう",
+    "romaji": "ohayou",
+    "meaning": "Buenos días",
+    "displayOrder": 22,
+    "categories": [
+      "GREETINGS"
+    ]
+  },
+  {
+    "editorialId": "thanks",
+    "japanese": "ありがとう",
+    "kana": "ありがとう",
+    "romaji": "arigatou",
+    "meaning": "Gracias",
+    "displayOrder": 23,
+    "categories": [
+      "GREETINGS"
+    ]
+  },
+  {
+    "editorialId": "father",
+    "japanese": "父",
+    "kana": "ちち",
+    "romaji": "chichi",
+    "meaning": "Padre",
+    "displayOrder": 24,
+    "categories": [
+      "FAMILY"
+    ]
+  },
+  {
+    "editorialId": "older-sister",
+    "japanese": "姉",
+    "kana": "あね",
+    "romaji": "ane",
+    "meaning": "Hermana mayor",
+    "displayOrder": 25,
+    "categories": [
+      "FAMILY"
+    ]
+  },
+  {
+    "editorialId": "dog",
+    "japanese": "犬",
+    "kana": "いぬ",
+    "romaji": "inu",
+    "meaning": "Perro",
+    "displayOrder": 26,
+    "categories": [
+      "ANIMAL"
+    ]
+  },
+  {
+    "editorialId": "bird",
+    "japanese": "鳥",
+    "kana": "とり",
+    "romaji": "tori",
+    "meaning": "Pájaro",
+    "displayOrder": 27,
+    "categories": [
+      "ANIMAL",
+      "NATURE"
+    ]
+  },
+  {
+    "editorialId": "rice",
+    "japanese": "ご飯",
+    "kana": "ごはん",
+    "romaji": "gohan",
+    "meaning": "Arroz cocido",
+    "displayOrder": 28,
+    "categories": [
+      "FOOD"
+    ]
+  },
+  {
+    "editorialId": "bread",
+    "japanese": "パン",
+    "kana": "パン",
+    "romaji": "pan",
+    "meaning": "Pan",
+    "displayOrder": 29,
+    "categories": [
+      "FOOD"
+    ]
+  },
+  {
+    "editorialId": "milk",
+    "japanese": "牛乳",
+    "kana": "ぎゅうにゅう",
+    "romaji": "gyuunyuu",
+    "meaning": "Leche",
+    "displayOrder": 30,
+    "categories": [
+      "DRINKS",
+      "FOOD"
+    ]
+  },
+  {
+    "editorialId": "coffee",
+    "japanese": "コーヒー",
+    "kana": "コーヒー",
+    "romaji": "koohii",
+    "meaning": "Café",
+    "displayOrder": 31,
+    "categories": [
+      "DRINKS"
+    ]
+  },
+  {
+    "editorialId": "train",
+    "japanese": "電車",
+    "kana": "でんしゃ",
+    "romaji": "densha",
+    "meaning": "Tren",
+    "displayOrder": 32,
+    "categories": [
+      "TRANSPORT"
+    ]
+  },
+  {
+    "editorialId": "bus",
+    "japanese": "バス",
+    "kana": "バス",
+    "romaji": "basu",
+    "meaning": "Autobús",
+    "displayOrder": 33,
+    "categories": [
+      "TRANSPORT"
+    ]
+  },
+  {
+    "editorialId": "bicycle",
+    "japanese": "自転車",
+    "kana": "じてんしゃ",
+    "romaji": "jitensha",
+    "meaning": "Bicicleta",
+    "displayOrder": 34,
+    "categories": [
+      "TRANSPORT"
+    ]
+  },
+  {
+    "editorialId": "desk",
+    "japanese": "机",
+    "kana": "つくえ",
+    "romaji": "tsukue",
+    "meaning": "Escritorio",
+    "displayOrder": 35,
+    "categories": [
+      "HOME",
+      "SCHOOL"
+    ]
+  },
+  {
+    "editorialId": "chair",
+    "japanese": "椅子",
+    "kana": "いす",
+    "romaji": "isu",
+    "meaning": "Silla",
+    "displayOrder": 36,
+    "categories": [
+      "HOME",
+      "SCHOOL"
+    ]
+  },
+  {
+    "editorialId": "flower",
+    "japanese": "花",
+    "kana": "はな",
+    "romaji": "hana",
+    "meaning": "Flor",
+    "displayOrder": 37,
+    "categories": [
+      "NATURE"
+    ]
+  },
+  {
+    "editorialId": "mountain",
+    "japanese": "山",
+    "kana": "やま",
+    "romaji": "yama",
+    "meaning": "Montaña",
+    "displayOrder": 38,
+    "categories": [
+      "NATURE"
+    ]
+  },
+  {
+    "editorialId": "snow",
+    "japanese": "雪",
+    "kana": "ゆき",
+    "romaji": "yuki",
+    "meaning": "Nieve",
+    "displayOrder": 39,
+    "categories": [
+      "WEATHER",
+      "NATURE"
+    ]
+  },
+  {
+    "editorialId": "wind",
+    "japanese": "風",
+    "kana": "かぜ",
+    "romaji": "kaze",
+    "meaning": "Viento",
+    "displayOrder": 40,
+    "categories": [
+      "WEATHER",
+      "NATURE"
+    ]
+  }
+]

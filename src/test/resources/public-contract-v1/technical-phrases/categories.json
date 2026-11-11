@@ -1,0 +1,46 @@
+{
+  "categories": [
+    {
+      "id": "comunicacion-basica",
+      "name": "Comunicación básica",
+      "description": "Saludos, presentaciones y despedidas.",
+      "displayOrder": 0,
+      "enabled": true
+    },
+    {
+      "id": "compras-y-comida",
+      "name": "Compras y comida",
+      "description": "Restaurantes, konbini, tiendas y pedidos.",
+      "displayOrder": 1,
+      "enabled": true
+    },
+    {
+      "id": "transporte-y-direcciones",
+      "name": "Transporte y direcciones",
+      "description": "Trenes, metro, estaciones y ubicaciones.",
+      "displayOrder": 2,
+      "enabled": true
+    },
+    {
+      "id": "viajes-y-alojamiento",
+      "name": "Viajes y alojamiento",
+      "description": "Aeropuertos, hoteles, reservas y turismo.",
+      "displayOrder": 3,
+      "enabled": true
+    },
+    {
+      "id": "salud-y-emergencias",
+      "name": "Salud y emergencias",
+      "description": "Síntomas, farmacias, emergencias y pedir ayuda.",
+      "displayOrder": 4,
+      "enabled": true
+    },
+    {
+      "id": "conversacion-cotidiana",
+      "name": "Conversación cotidiana",
+      "description": "Preguntas, respuestas y expresiones de uso diario.",
+      "displayOrder": 5,
+      "enabled": true
+    }
+  ]
+}

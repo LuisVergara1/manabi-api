@@ -12,8 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import dev.luisvergara.manabi.entity.vocabulary.Vocabulary;
-import dev.luisvergara.manabi.enums.vocabulary.VocabularyCategory;
+import dev.luisvergara.manabi.dto.vocabulary.*;
 import dev.luisvergara.manabi.service.VocabularyService;
 import lombok.RequiredArgsConstructor;
 
@@ -21,30 +20,34 @@ import lombok.RequiredArgsConstructor;
 @RequestMapping("/api/vocabulary")
 @RequiredArgsConstructor
 public class VocabularyController {
-    
+
     private final VocabularyService vocabularyService;
 
+    @GetMapping("/categories")
+    public java.util.List<dev.luisvergara.manabi.dto.vocabulary.VocabularyCategoryResponse> categories(){return vocabularyService.categories();}
+    @PutMapping("/categories/{id}")
+    public dev.luisvergara.manabi.dto.vocabulary.VocabularyCategoryResponse updateCategory(@PathVariable Long id,@RequestBody dev.luisvergara.manabi.dto.vocabulary.VocabularyCategoryRequest request){return vocabularyService.updateCategory(id,request);}
     @GetMapping
-    public List<Vocabulary> find(
-            @RequestParam(required = false) List<VocabularyCategory> categories) {
+    public List<VocabularyResponse> find(
+            @RequestParam(required = false) List<String> categories) {
 
-        return vocabularyService.find(categories);
+        return vocabularyService.responses(categories);
     }
 
     @GetMapping("/{id}")
-    public Vocabulary findById(@PathVariable Long id) {
-        return vocabularyService.findById(id);
+    public VocabularyResponse findById(@PathVariable Long id) {
+        return vocabularyService.response(id);
     }
 
     @PostMapping
-    public Vocabulary save(@RequestBody Vocabulary vocabulary) {
+    public VocabularyResponse save(@RequestBody VocabularyRequest vocabulary) {
         return vocabularyService.save(vocabulary);
     }
 
     @PutMapping("/{id}")
-    public Vocabulary update(
+    public VocabularyResponse update(
             @PathVariable Long id,
-            @RequestBody Vocabulary vocabulary) {
+            @RequestBody VocabularyRequest vocabulary) {
 
         return vocabularyService.update(id, vocabulary);
     }

@@ -1,0 +1,196 @@
+{
+  "namespace": "manabi.frontend.v1",
+  "batchId": "manabi-educational-v1",
+  "contentVersion": "1.0.0",
+  "formatVersion": 1,
+  "counts": {
+    "hiragana": 104,
+    "katakana": 118,
+    "kanji": 5,
+    "kanjiReadings": 11,
+    "vocabulary": 40,
+    "memberships": 55
+  },
+  "files": {
+    "kana": {
+      "file": "kana.json",
+      "sha256": "eaec0dfed2cac111d2c2c28ee53c559ed922ab5cfbdbf78f06d9d26f87326a60"
+    },
+    "kanji": {
+      "file": "kanji.json",
+      "sha256": "6b292fb98b1a92ef7607a9d78213e04d37511e6053ad254b626554f450b5842c"
+    },
+    "vocabulary": {
+      "file": "vocabulary.json",
+      "sha256": "d772a44f1490a132c2b740d4ad5765139f3a129fc0174a029a4b50d1ff857e37"
+    }
+  },
+  "categoryMappings": {
+    "clothes": "CLOTHES",
+    "colors": "COLOR",
+    "numbers": "NUMBERS",
+    "greetings": "GREETINGS",
+    "family": "FAMILY",
+    "animals": "ANIMAL",
+    "food": "FOOD",
+    "drinks": "DRINKS",
+    "transport": "TRANSPORT",
+    "home": "HOME",
+    "nature": "NATURE",
+    "weather": "WEATHER",
+    "time": "TIME",
+    "places": "PLACE",
+    "school": "SCHOOL",
+    "work": "WORK",
+    "verbs": "VERBS",
+    "adjectives": "ADJECTIVES"
+  },
+  "categoryCatalog": [
+    {
+      "code": "CLOTHES",
+      "name": "Ropa",
+      "symbol": "衣",
+      "displayOrder": 1,
+      "showInCatalog": true
+    },
+    {
+      "code": "COLOR",
+      "name": "Colores",
+      "symbol": "色",
+      "displayOrder": 2,
+      "showInCatalog": true
+    },
+    {
+      "code": "NUMBERS",
+      "name": "Números",
+      "symbol": "数",
+      "displayOrder": 3,
+      "showInCatalog": true
+    },
+    {
+      "code": "GREETINGS",
+      "name": "Saludos",
+      "symbol": "礼",
+      "displayOrder": 4,
+      "showInCatalog": true
+    },
+    {
+      "code": "FAMILY",
+      "name": "Familia",
+      "symbol": "親",
+      "displayOrder": 5,
+      "showInCatalog": true
+    },
+    {
+      "code": "ANIMAL",
+      "name": "Animales",
+      "symbol": "猫",
+      "displayOrder": 6,
+      "showInCatalog": true
+    },
+    {
+      "code": "FOOD",
+      "name": "Comida",
+      "symbol": "食",
+      "displayOrder": 7,
+      "showInCatalog": true
+    },
+    {
+      "code": "DRINKS",
+      "name": "Bebidas",
+      "symbol": "茶",
+      "displayOrder": 8,
+      "showInCatalog": true
+    },
+    {
+      "code": "TRANSPORT",
+      "name": "Transporte",
+      "symbol": "車",
+      "displayOrder": 9,
+      "showInCatalog": true
+    },
+    {
+      "code": "HOME",
+      "name": "Hogar",
+      "symbol": "家",
+      "displayOrder": 10,
+      "showInCatalog": true
+    },
+    {
+      "code": "NATURE",
+      "name": "Naturaleza",
+      "symbol": "花",
+      "displayOrder": 11,
+      "showInCatalog": true
+    },
+    {
+      "code": "WEATHER",
+      "name": "Clima",
+      "symbol": "雨",
+      "displayOrder": 12,
+      "showInCatalog": true
+    },
+    {
+      "code": "TIME",
+      "name": "Tiempo",
+      "symbol": "時",
+      "displayOrder": 13,
+      "showInCatalog": true
+    },
+    {
+      "code": "PLACE",
+      "name": "Lugares",
+      "symbol": "町",
+      "displayOrder": 14,
+      "showInCatalog": true
+    },
+    {
+      "code": "SCHOOL",
+      "name": "Escuela",
+      "symbol": "学",
+      "displayOrder": 15,
+      "showInCatalog": true
+    },
+    {
+      "code": "WORK",
+      "name": "Trabajo",
+      "symbol": "仕",
+      "displayOrder": 16,
+      "showInCatalog": true
+    },
+    {
+      "code": "VERBS",
+      "name": "Verbos",
+      "symbol": "動",
+      "displayOrder": 17,
+      "showInCatalog": true
+    },
+    {
+      "code": "ADJECTIVES",
+      "name": "Adjetivos",
+      "symbol": "形",
+      "displayOrder": 18,
+      "showInCatalog": true
+    },
+    {
+      "code": "OBJECT",
+      "name": "OBJECT",
+      "symbol": null,
+      "displayOrder": 19,
+      "showInCatalog": false
+    },
+    {
+      "code": "DAILY",
+      "name": "DAILY",
+      "symbol": null,
+      "displayOrder": 20,
+      "showInCatalog": false
+    }
+  ],
+  "sources": {
+    "hiragana.ts": "41b30fffe07f465e6ec3b03245ff468931682c81e096bacfbc0e3fa62db73b7e",
+    "katakana.ts": "c163e0460f4f75b43bf99f31c247aa18848da6859bd2f4d6cc70c28600879852",
+    "kanji.ts": "5dda0818a146f51173840b8d6b239a979d368d04f77f70c64e2877de3c6ca969",
+    "vocabulary.ts": "987f052e1b940c250c289fbab79ad9b92dc8788eedc95b8f8629769d9ee00f3b"
+  }
+}

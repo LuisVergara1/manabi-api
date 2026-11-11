@@ -1,0 +1,128 @@
+[
+  {
+    "editorialId": "kanji-water",
+    "character": "水",
+    "meaning": "Agua",
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "displayOrder": 1,
+    "radicalCharacter": "水",
+    "radicalName": "Agua",
+    "readings": [
+      {
+        "reading": "みず",
+        "readingType": "KUNYOMI",
+        "romaji": "mizu",
+        "primary": true
+      },
+      {
+        "reading": "スイ",
+        "readingType": "ONYOMI",
+        "romaji": null,
+        "primary": false
+      }
+    ]
+  },
+  {
+    "editorialId": "kanji-fire",
+    "character": "火",
+    "meaning": "Fuego",
+    "strokeCount": 4,
+    "jlptLevel": "N5",
+    "displayOrder": 2,
+    "radicalCharacter": "火",
+    "radicalName": "Fuego",
+    "readings": [
+      {
+        "reading": "ひ",
+        "readingType": "KUNYOMI",
+        "romaji": "hi",
+        "primary": true
+      },
+      {
+        "reading": "ほ",
+        "readingType": "KUNYOMI",
+        "romaji": null,
+        "primary": false
+      },
+      {
+        "reading": "カ",
+        "readingType": "ONYOMI",
+        "romaji": null,
+        "primary": false
+      }
+    ]
+  },
+  {
+    "editorialId": "kanji-mountain",
+    "character": "山",
+    "meaning": "Montaña",
+    "strokeCount": 3,
+    "jlptLevel": "N5",
+    "displayOrder": 3,
+    "radicalCharacter": "山",
+    "radicalName": "Montaña",
+    "readings": [
+      {
+        "reading": "やま",
+        "readingType": "KUNYOMI",
+        "romaji": "yama",
+        "primary": true
+      },
+      {
+        "reading": "サン",
+        "readingType": "ONYOMI",
+        "romaji": null,
+        "primary": false
+      }
+    ]
+  },
+  {
+    "editorialId": "kanji-sea",
+    "character": "海",
+    "meaning": "Mar",
+    "strokeCount": 9,
+    "jlptLevel": "N4",
+    "displayOrder": 1,
+    "radicalCharacter": "氵",
+    "radicalName": "Agua (水)",
+    "readings": [
+      {
+        "reading": "うみ",
+        "readingType": "KUNYOMI",
+        "romaji": "umi",
+        "primary": true
+      },
+      {
+        "reading": "カイ",
+        "readingType": "ONYOMI",
+        "romaji": null,
+        "primary": false
+      }
+    ]
+  },
+  {
+    "editorialId": "kanji-forest",
+    "character": "森",
+    "meaning": "Bosque",
+    "strokeCount": 12,
+    "jlptLevel": "N4",
+    "displayOrder": 2,
+    "radicalCharacter": "木",
+    "radicalName": "Árbol",
+    "readings": [
+      {
+        "reading": "もり",
+        "readingType": "KUNYOMI",
+        "romaji": "mori",
+        "primary": true
+      },
+      {
+        "reading": "シン",
+        "readingType": "ONYOMI",
+        "romaji": null,
+        "primary": false
+      }
+    ]
+  }
+]

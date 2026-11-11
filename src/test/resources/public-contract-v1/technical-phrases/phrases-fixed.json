@@ -1,0 +1,87 @@
+{
+  "phrases": [
+    {
+      "id": "fixture-excuse",
+      "kind": "FIXED",
+      "displayOrder": 2,
+      "categoryIds": [
+        "compras-y-comida",
+        "comunicacion-basica"
+      ],
+      "japanese": "すみません。",
+      "kana": "すみません。",
+      "romaji": "Sumimasen.",
+      "meaning": "Disculpe / Perdón.",
+      "iconType": "conversation",
+      "introduction": "Una expresión cortés para disculparse, llamar la atención o iniciar una pregunta o petición. Su interpretación depende del contexto.",
+      "usageNote": "Se utiliza para disculparse por una molestia, llamar educadamente la atención o iniciar una pregunta o petición. La traducción depende de la situación.",
+      "keyPoints": [
+        "Es una expresión corta y muy habitual.",
+        "El tono y la situación ayudan a entender su intención.",
+        "No se traduce siempre con una única palabra española."
+      ],
+      "meanings": [
+        {
+          "id": "fixture-context-attention",
+          "label": "Disculpe",
+          "explanation": "Para llamar educadamente la atención.",
+          "iconType": "attention"
+        },
+        {
+          "id": "fixture-context-apology",
+          "label": "Perdón",
+          "explanation": "Para disculparse por una molestia.",
+          "iconType": "apology"
+        },
+        {
+          "id": "fixture-context-request",
+          "label": "Disculpe…",
+          "explanation": "Para iniciar una pregunta o petición.",
+          "iconType": "conversation"
+        }
+      ],
+      "examples": [
+        {
+          "id": "fixture-example-excuse-water",
+          "displayOrder": 7,
+          "japanese": "すみません、水をお願いします。",
+          "kana": "すみません、みずをおねがいします。",
+          "romaji": "Sumimasen, mizu o onegaishimasu.",
+          "meaning": "Disculpe, quisiera agua, por favor.",
+          "iconType": "restaurant",
+          "situation": "En un restaurante, se llama la atención antes de pedir agua."
+        },
+        {
+          "id": "fixture-example-excuse-price",
+          "displayOrder": 8,
+          "japanese": "すみません、これはいくらですか。",
+          "kana": "すみません、これはいくらですか。",
+          "romaji": "Sumimasen, kore wa ikura desu ka.",
+          "meaning": "Disculpe, ¿cuánto cuesta esto?",
+          "iconType": "shopping",
+          "situation": "En una tienda, se señala un producto y se pregunta su precio."
+        },
+        {
+          "id": "fixture-example-excuse-station",
+          "displayOrder": 9,
+          "japanese": "すみません、駅はどこですか。",
+          "kana": "すみません、えきはどこですか。",
+          "romaji": "Sumimasen, eki wa doko desu ka.",
+          "meaning": "Disculpe, ¿dónde está la estación?",
+          "iconType": "transport",
+          "situation": "Se pide información a una persona en la calle."
+        },
+        {
+          "id": "fixture-example-excuse-repeat",
+          "displayOrder": 10,
+          "japanese": "すみません、もう一度お願いします。",
+          "kana": "すみません、もういちどおねがいします。",
+          "romaji": "Sumimasen, mou ichido onegaishimasu.",
+          "meaning": "Disculpe, ¿puede repetirlo, por favor?",
+          "iconType": "repeat",
+          "situation": "No se ha entendido lo que acaba de decir el interlocutor."
+        }
+      ]
+    }
+  ]
+}

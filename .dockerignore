@@ -1,0 +1,9 @@
+*
+!Dockerfile
+!target/
+target/*
+!target/manabi-api-0.0.1-SNAPSHOT.jar
+.env
+.env.*
+*.env
+.git

@@ -1,0 +1,102 @@
+{
+  "phrases": [
+    {
+      "id": "fixture-introduce",
+      "kind": "PATTERN",
+      "displayOrder": 3,
+      "categoryIds": [
+        "comunicacion-basica"
+      ],
+      "japanese": "私は〇〇です。",
+      "kana": "わたしは〇〇です。",
+      "romaji": "Watashi wa 〇〇 desu.",
+      "meaning": "Soy [nombre].",
+      "iconType": "attention",
+      "introduction": "Una estructura cortés para identificarte: puedes decir tu nombre o una identificación compatible, como tu profesión.",
+      "usageNote": "Sirve para identificarse mediante un nombre o un sustantivo compatible, como una profesión. 私は puede omitirse cuando ya se entiende de quién se habla.",
+      "keyPoints": [
+        "Sirve para presentarte o decir una identificación básica.",
+        "La información variable puede ser un nombre o una profesión expresada como sustantivo.",
+        "La traducción española se adapta al contenido: no siempre será un nombre propio."
+      ],
+      "pattern": {
+        "formula": "私は + 〇〇 + です。",
+        "explanation": "Sustituye 〇〇 por un nombre o sustantivo compatible, como una profesión.",
+        "slots": [
+          {
+            "id": "name",
+            "label": "nombre",
+            "description": "Nombre o sustantivo que identifica a quien habla, como 学生 (estudiante). No admite cualquier palabra ni expresa por sí solo la procedencia."
+          }
+        ]
+      },
+      "learningKeys": [
+        {
+          "id": "topic-wa",
+          "particleId": "particle-wa-topic",
+          "iconType": "conversation"
+        },
+        {
+          "id": "omitted-topic",
+          "title": "Omitir 私は",
+          "explanation": "Puedes omitirlo cuando el contexto deja claro que hablas de ti.",
+          "iconType": "attention",
+          "example": {
+            "japanese": "ルイスです。",
+            "kana": "ルイスです。",
+            "romaji": "Ruisu desu.",
+            "meaning": "Soy Luis."
+          }
+        },
+        {
+          "id": "polite-desu",
+          "title": "La función de です",
+          "explanation": "Da un tono cortés a esta construcción.",
+          "iconType": "examples"
+        }
+      ],
+      "examples": [
+        {
+          "id": "fixture-example-introduce",
+          "displayOrder": 0,
+          "japanese": "私はアナです。",
+          "kana": "わたしはアナです。",
+          "romaji": "Watashi wa Ana desu.",
+          "meaning": "Soy Ana.",
+          "iconType": "attention",
+          "situation": "Una persona se presenta."
+        },
+        {
+          "id": "fixture-example-introduce-luis",
+          "displayOrder": 11,
+          "japanese": "私はルイスです。",
+          "kana": "わたしはルイスです。",
+          "romaji": "Watashi wa Ruisu desu.",
+          "meaning": "Soy Luis.",
+          "iconType": "conversation",
+          "situation": "Una persona dice su nombre al presentarse."
+        },
+        {
+          "id": "fixture-example-introduce-student",
+          "displayOrder": 12,
+          "japanese": "私は学生です。",
+          "kana": "わたしはがくせいです。",
+          "romaji": "Watashi wa gakusei desu.",
+          "meaning": "Soy estudiante.",
+          "iconType": "examples",
+          "situation": "Una persona explica que es estudiante."
+        },
+        {
+          "id": "fixture-example-introduce-engineer",
+          "displayOrder": 13,
+          "japanese": "私はエンジニアです。",
+          "kana": "わたしはエンジニアです。",
+          "romaji": "Watashi wa enjinia desu.",
+          "meaning": "Soy ingeniero/a.",
+          "iconType": "shopping",
+          "situation": "Una persona indica su profesión."
+        }
+      ]
+    }
+  ]
+}

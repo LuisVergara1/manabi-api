@@ -1,0 +1,87 @@
+{
+  "entityType": "KANJI",
+  "jlptLevel": "N5",
+  "namespace": "manabi.frontend.v1",
+  "packageId": "kanji-n5",
+  "records": [
+    {
+      "character": "水",
+      "displayOrder": 1,
+      "editorialId": "kanji-water",
+      "jlptLevel": "N5",
+      "meaning": "Agua",
+      "radicalCharacter": "水",
+      "radicalName": "Agua",
+      "readings": [
+        {
+          "primary": true,
+          "reading": "みず",
+          "readingType": "KUNYOMI",
+          "romaji": "mizu"
+        },
+        {
+          "primary": false,
+          "reading": "スイ",
+          "readingType": "ONYOMI",
+          "romaji": null
+        }
+      ],
+      "strokeCount": 4
+    },
+    {
+      "character": "火",
+      "displayOrder": 2,
+      "editorialId": "kanji-fire",
+      "jlptLevel": "N5",
+      "meaning": "Fuego",
+      "radicalCharacter": "火",
+      "radicalName": "Fuego",
+      "readings": [
+        {
+          "primary": true,
+          "reading": "ひ",
+          "readingType": "KUNYOMI",
+          "romaji": "hi"
+        },
+        {
+          "primary": false,
+          "reading": "ほ",
+          "readingType": "KUNYOMI",
+          "romaji": null
+        },
+        {
+          "primary": false,
+          "reading": "カ",
+          "readingType": "ONYOMI",
+          "romaji": null
+        }
+      ],
+      "strokeCount": 4
+    },
+    {
+      "character": "山",
+      "displayOrder": 3,
+      "editorialId": "kanji-mountain",
+      "jlptLevel": "N5",
+      "meaning": "Montaña",
+      "radicalCharacter": "山",
+      "radicalName": "Montaña",
+      "readings": [
+        {
+          "primary": true,
+          "reading": "やま",
+          "readingType": "KUNYOMI",
+          "romaji": "yama"
+        },
+        {
+          "primary": false,
+          "reading": "サン",
+          "readingType": "ONYOMI",
+          "romaji": null
+        }
+      ],
+      "strokeCount": 3
+    }
+  ],
+  "schemaVersion": 1
+}
